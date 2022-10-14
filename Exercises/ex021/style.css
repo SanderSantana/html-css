@@ -1,0 +1,34 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family: 'Caviar';
+    src: url('CaviarDreams.ttf')  format('truetype') ;  
+} 
+* {
+    font-family: Caviar ;
+    color: rgba(255, 255, 255, 0.863) ;
+}
+body {
+    background-color: rgb(49, 49, 49) ;
+}
+a:visited {
+    color: #ffa2a0 ;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #ff5552 ;
+}
+a:active {
+    color: #dd0703 ;
+}
+h1:hover {
+    color: #FFF1BA ;
+}
+.main::after {
+    content: '☦';
+}
+.main::before {
+    content: '☦' ;
+}
