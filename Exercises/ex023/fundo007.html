@@ -4,32 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vertical alignment</title>
+    <title>Vertical positioning</title>
     <style>
         #container {
-            position: relative;
-            height: 96vh;
-            background-color: purple;
-            padding: 10px;
             background-image: url(Images/target001.png);
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            background-position: center center;
-            
+            position: relative;
+            height: 500px;
+            padding: 10px;
+            background-color: red;
         }
-
 
         #content {
             background-image: url(Images/target001.png);
             background-size: 100% 100%;
+            background-image: url(Images/target001.png);
             position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            height: 200px;
+            height: 200px; 
             width: 400px;
             background-color: yellow;
-            
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%)
         }
     </style>
 </head>
